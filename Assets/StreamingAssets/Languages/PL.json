@@ -1,0 +1,55 @@
+{
+  "MENU.NEWGAME":"Nowa Gra",
+  "MENU.RESUME":"Wznów",
+  "MENU.PLAY":"Graj",
+
+  "MENU.SAVEGAME":"Zapisz Grę",
+  "MENU.LOADGAME":"Wczytaj Grę",
+  "MENU.SAVE":"Zapisz",
+  "MENU.SAVE&EXIT":"Zapisz i Wyjdź",
+
+  "MENU.OPTIONS":"Opcje",
+  "MENU.CREDITS":"Autorzy",
+  "MENU.EXIT":"Wyjdź",
+
+  "MENU.STATUS.LOADING":"Ładowanie...",
+  "MENU.SAVENAME.PLACEHOLDER":"Nazwa zapisu...",
+  "MENU.LOAD.NOGAMES":"Obecnie nie ma żadnych zapisanych gier.",
+
+  "MENU.OPTIONS.TITLE":"Opcje",
+  "MENU.OPTIONS.GRAPHICS":"Grafika",
+  "MENU.OPTIONS.SOUND":"Dźwięk",
+  "MENU.OPTIONS.GAMEPLAY":"Gra",
+  "MENU.OPTIONS.RESET":"Przywróć",
+
+  "MENU.OPTIONS.GRAPHICS.BRIGHTNESS":"Jasność",
+  "MENU.OPTIONS.GRAPHICS.FULLSCREEN":"Pełny ekran",
+  "MENU.OPTIONS.GRAPHICS.RESOLUTION":"Rozdzielczość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY":"Jakość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.LOW":"Niska",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.MEDIUM":"Średnia",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.HIGH":"Wysoka",
+
+  "MENU.OPTIONS.SOUND.MASTER":"Głośność Główna",
+  "MENU.OPTIONS.SOUND.MUSIC":"Głośność Muzyki",
+  "MENU.OPTIONS.SOUND.EFFECTS":"Głośność Efektów",
+
+  "MENU.OPTIONS.GAMEPLAY.SENSITIVITY":"Czułość myszy",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE":"Język",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.ENGLISH":"English",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.POLISH":"Polski",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.SILESIAN":"Ślůnski",
+  
+  "MENU.OPTIONS.RESET.TEXT":"Czy jesteś pewien, że chcesz przywrócić wszystkie ustawienia do domyślnych?",
+  "MENU.OPTIONS.RESET.YES":"Tak",
+  "MENU.OPTIONS.RESET.NO":"Nie",
+
+  "MENU.EXITGAME.TEXT":"Czy chcesz zapisać grę przed wyjściem?",
+  "MENU.EXITGAME.YES":"Tak",
+  "MENU.EXITGAME.NO":"Nie",
+
+  "TAB.INVENTORY":"Wyposażenie",
+  "TAB.BLUEPRINTS":"Schematy",
+  "TAB.OBJECTIVES":"Zadania",
+  "TAB.JOURNAL":"Dziennik"
+}

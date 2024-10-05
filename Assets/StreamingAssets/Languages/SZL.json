@@ -1,0 +1,55 @@
+{
+  "MENU.NEWGAME":"Nowy Szpil",
+  "MENU.RESUME":"Znowić",
+  "MENU.PLAY":"Grej",
+
+  "MENU.SAVEGAME":"Zapisz Szpil",
+  "MENU.LOADGAME":"Wgrej Szpil",
+  "MENU.SAVE":"Zapisz",
+  "MENU.SAVE&EXIT":"Zapisz i Wyjdź",
+
+  "MENU.OPTIONS":"Ôpcyje",
+  "MENU.CREDITS":"Autory",
+  "MENU.EXIT":"Wyjdź",
+
+  "MENU.STATUS.LOADING":"Ladowanie...",
+  "MENU.SAVENAME.PLACEHOLDER":"Miano zŏpisu...",
+  "MENU.LOAD.NOGAMES":"Terŏźnie niy ma żŏdnych zapisanych szpilōw.",
+
+  "MENU.OPTIONS.TITLE":"Ôpcyje",
+  "MENU.OPTIONS.GRAPHICS":"Grafika",
+  "MENU.OPTIONS.SOUND":"Klang",
+  "MENU.OPTIONS.GAMEPLAY":"Szpil",
+  "MENU.OPTIONS.RESET":"Prziwrōć",
+
+  "MENU.OPTIONS.GRAPHICS.BRIGHTNESS":"Jasność",
+  "MENU.OPTIONS.GRAPHICS.FULLSCREEN":"Połny ekran",
+  "MENU.OPTIONS.GRAPHICS.RESOLUTION":"Rozdzielczość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY":"Jakość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.LOW":"Niskŏ",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.MEDIUM":"Postrzedniŏ",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.HIGH":"Wysokŏ",
+
+  "MENU.OPTIONS.SOUND.MASTER":"Głośność Głownŏ",
+  "MENU.OPTIONS.SOUND.MUSIC":"Głośność Muzyki",
+  "MENU.OPTIONS.SOUND.EFFECTS":"Głośność Efektōw",
+
+  "MENU.OPTIONS.GAMEPLAY.SENSITIVITY":"Czułość myszy",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE":"Gŏdka",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.ENGLISH":"English",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.POLISH":"Polski",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.SILESIAN":"Ślōnski",
+  
+  "MENU.OPTIONS.RESET.TEXT":"Je żeś pewny, iże chcesz prziwrōcić wszyjske ustawiyniŏ do wychodnych?",
+  "MENU.OPTIONS.RESET.YES":"Ja",
+  "MENU.OPTIONS.RESET.NO":"Niy",
+
+  "MENU.EXITGAME.TEXT":"Chcesz zapisać szpil przed wyjściym?",
+  "MENU.EXITGAME.YES":"Ja",
+  "MENU.EXITGAME.NO":"Niy",
+
+  "TAB.INVENTORY":"Wyposażenie",
+  "TAB.BLUEPRINTS":"Schematy",
+  "TAB.OBJECTIVES":"Zadania",
+  "TAB.JOURNAL":"Dziennik"
+}

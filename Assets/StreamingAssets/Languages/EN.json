@@ -1,0 +1,55 @@
+{
+  "MENU.NEWGAME":"New Game",
+  "MENU.RESUME":"Resume",
+  "MENU.PLAY":"Play",
+
+  "MENU.SAVEGAME":"Save Game",
+  "MENU.LOADGAME":"Load Game",
+  "MENU.SAVE":"Save",
+  "MENU.SAVE&EXIT":"Save & Exit",
+
+  "MENU.OPTIONS":"Options",
+  "MENU.CREDITS":"Credits",
+  "MENU.EXIT":"Exit",
+
+  "MENU.STATUS.LOADING":"Loading...",
+  "MENU.SAVENAME.PLACEHOLDER":"Save name...",
+  "MENU.LOAD.NOGAMES":"There are currently no saved games.",
+
+  "MENU.OPTIONS.TITLE":"Options",
+  "MENU.OPTIONS.GRAPHICS":"Graphics",
+  "MENU.OPTIONS.SOUND":"Sound",
+  "MENU.OPTIONS.GAMEPLAY":"Gameplay",
+  "MENU.OPTIONS.RESET":"Reset",
+
+  "MENU.OPTIONS.GRAPHICS.BRIGHTNESS":"Brightness",
+  "MENU.OPTIONS.GRAPHICS.FULLSCREEN":"Fullscreen",
+  "MENU.OPTIONS.GRAPHICS.RESOLUTION":"Resolution",
+  "MENU.OPTIONS.GRAPHICS.QUALITY":"Quality",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.LOW":"Low",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.MEDIUM":"Medium",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.HIGH":"High",
+
+  "MENU.OPTIONS.SOUND.MASTER":"Master Volume",
+  "MENU.OPTIONS.SOUND.MUSIC":"Music Volume",
+  "MENU.OPTIONS.SOUND.EFFECTS":"Effects Volume",
+
+  "MENU.OPTIONS.GAMEPLAY.SENSITIVITY":"Mouse Sensitivity",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE":"Language",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.ENGLISH":"English",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.POLISH":"Polski",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.SILESIAN":"Ślůnski",
+
+  "MENU.OPTIONS.RESET.TEXT":"Are you sure you want to reset all settings to default?",
+  "MENU.OPTIONS.RESET.YES":"Yes",
+  "MENU.OPTIONS.RESET.NO":"No",
+
+  "MENU.EXITGAME.TEXT":"Do you want to save the game before leaving?",
+  "MENU.EXITGAME.YES":"Yes",
+  "MENU.EXITGAME.NO":"No",
+
+  "TAB.INVENTORY":"Inventory",
+  "TAB.BLUEPRINTS":"Blueprints",
+  "TAB.OBJECTIVES":"Objectives",
+  "TAB.JOURNAL":"Journal"
+}
