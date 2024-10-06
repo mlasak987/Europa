@@ -1,5 +1,5 @@
+using Europa.Utils;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Europa.Inventory
@@ -21,38 +21,53 @@ namespace Europa.Inventory
             }
         }
 
-        public List<Item> Items { get; private set; }
+        [HideInInspector] public Slot[] Slots;
 
-        [SerializeField] private GameObject inventoryItemPrefab;
-        [SerializeField] private Transform inventoryPanelPrefab;
         [SerializeField] public List<Item> AvaiableItems;
-        [SerializeField] public int MaxItems = 32;
+        [SerializeField] public int MaxItems = 25;
+        public int ItemsCount { get; private set; }
+        [SerializeField] public ItemInfo itemInfo;
+        [SerializeField] public Item EmptyItem;
 
         private void Awake()
         {
             Singleton = this;
-            Items = new();
+            ItemsCount = 0;
+        }
+
+        private void Start()
+        {
+            Slots = FindObjectOfType<ItemContainer>().GetComponentsInChildren<Slot>();
+            Player.Player.Singleton.Resume();
         }
 
         public void AddItem(Item item)
         {
-            if (Items.Count >= MaxItems) return;
-            Items.Add(item);
-            GameObject obj = Instantiate(inventoryItemPrefab, inventoryPanelPrefab);
-
-            InventoryItem invItem = obj.GetComponent<InventoryItem>();
-            invItem.nameText.text = item.name;
-            invItem.spriteImage.sprite = item.sprite;
-            invItem.weightText.text = $"{item.itemWeight} kg";
+            foreach (Slot slot in Slots)
+                if (slot.IsEmpty) { slot.SetItem(item); break; }
         }
 
+        public void RemoveItem(int at) => Slots[at].RemoveItem();
+           
         public void PickUpItem(GameObject pickUpObject)
         {
-            if (Items.Count >= MaxItems) return;
+            if (ItemsCount >= MaxItems) return;
 
             ColectableItem pickItem = pickUpObject.GetComponent<ColectableItem>();
-            Destroy(pickUpObject);
+            ToDestroy toDestroy = pickUpObject.GetComponentInParent<ToDestroy>();
+            Destroy(toDestroy.gameObject);
             AddItem(AvaiableItems[pickItem.itemId]);
+        }
+
+        public void DisplayInfo(Item infoItem)
+        {
+            itemInfo.gameObject.SetActive(true);
+            itemInfo.UpdateText($"<size=35>{infoItem.Name}</size>\n<size=24> Weight: {infoItem.Weight} kg</size>");
+        }
+
+        public void HideInfo()
+        {
+            itemInfo.gameObject.SetActive(false);
         }
     }
 }

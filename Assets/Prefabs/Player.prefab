@@ -107,13 +107,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772185ddd5be87043a4777d877bcb5a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UnlockedLore: 0101
   CanBreath: 1
   pauseMenu: {fileID: 0}
   tabMenu: {fileID: 0}
   uiMenu: {fileID: 0}
+  DefaultWater: 0
+  startPos: {x: 0, y: 1, z: 0}
+  tabMenus:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   maxOxygen: 100
   oxygenSlider: {fileID: 0}
-  keyText: {fileID: 0}
+  status: {fileID: 0}
 --- !u!114 &3586407292580558353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,11 +155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62cac018b39677644ad59a914de91318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryItemPrefab: {fileID: 7406542225074242244, guid: 6e08d7b805813a247b448e1996d50cef,
-    type: 3}
-  inventoryPanelPrefab: {fileID: 0}
+  Slots: []
   AvaiableItems:
-  - {fileID: 11400000, guid: fb3495e3f43e3be4e857713369edc8d5, type: 2}
+  - {fileID: 11400000, guid: c11d22256a4b94647a43c6fefc820bcd, type: 2}
+  MaxItems: 25
+  itemInfo: {fileID: 0}
+  EmptyItem: {fileID: 0}
 --- !u!1 &3007787675960038312
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,9 +452,10 @@ GameObject:
   - component: {fileID: 8829573884897127489}
   - component: {fileID: 5451979770099824109}
   - component: {fileID: 3623932085970079972}
+  - component: {fileID: 4459011125385217153}
   m_Layer: 0
   m_Name: CameraCollider
-  m_TagString: Untagged
+  m_TagString: CameraCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -481,7 +490,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -500,3 +509,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMaterial: {fileID: 2100000, guid: b9ee6d97aec1d5e4ab0d626f55b9cf2c, type: 2}
+--- !u!54 &4459011125385217153
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7312774100522338582}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

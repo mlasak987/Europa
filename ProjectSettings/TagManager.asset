@@ -5,7 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Water
-  - Colectable
+  - Outline
+  - CameraCollider
+  - Air
   layers:
   - Default
   - TransparentFX

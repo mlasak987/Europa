@@ -19,6 +19,15 @@ namespace Europa.Player
 
         private void Start()
         {
+            if (Player.Singleton.DefaultWater)
+            {
+                RenderSettings.fog = true;
+                postProcessing.profile = underwaterProfile;
+
+                Player.Singleton.CanBreath = false;
+                Player.Singleton.MovController.IsCompletelyUnderwater = true;
+            }
+
             postProcessing = GetComponent<Volume>();
             PauseMenu(false);
         }
@@ -41,6 +50,11 @@ namespace Europa.Player
         {
             if (postProcessing.profile == underwaterProfile) { postProcessing.profile = surfaceProfile; foreach (var val in underwaterBackgrounds) val.SetActive(true); lastProfile = underwaterProfile; }
             else if (lastProfile == underwaterProfile) { postProcessing.profile = underwaterProfile; foreach (var val in underwaterBackgrounds) val.SetActive(false); lastProfile = null; }
+            CursorUnlock(state);
+        }
+
+        public void CursorUnlock(bool state)
+        {
             Cursor.lockState = state ? CursorLockMode.None : CursorLockMode.Locked;
             Cursor.visible = state;
         }
@@ -55,6 +69,14 @@ namespace Europa.Player
                 Player.Singleton.CanBreath = false;
                 Player.Singleton.MovController.IsCompletelyUnderwater = true;
             }
+            else if (other.CompareTag("Air"))
+            {
+                RenderSettings.fog = false;
+                postProcessing.profile = surfaceProfile;
+
+                Player.Singleton.CanBreath = true;
+                Player.Singleton.MovController.IsCompletelyUnderwater = false;
+            }
         }
 
         private void OnTriggerExit(Collider other)
@@ -66,6 +88,14 @@ namespace Europa.Player
 
                 Player.Singleton.CanBreath = true;
                 Player.Singleton.MovController.IsCompletelyUnderwater = false;
+            }
+            else if (other.CompareTag("Air"))
+            {
+                RenderSettings.fog = true;
+                postProcessing.profile = underwaterProfile;
+
+                Player.Singleton.CanBreath = false;
+                Player.Singleton.MovController.IsCompletelyUnderwater = true;
             }
         }
     }

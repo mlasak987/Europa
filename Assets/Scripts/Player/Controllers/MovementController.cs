@@ -29,7 +29,7 @@ namespace Europa.Player
         {
             controller = GetComponent<CharacterController>();
 
-            isSwimming = false;
+            isSwimming = Player.Singleton.DefaultWater;
         }
 
         private void Update()
@@ -64,10 +64,12 @@ namespace Europa.Player
         private void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Water")) isSwimming = true;
+            else if (other.CompareTag("Air")) isSwimming = false;
         }
         private void OnTriggerExit(Collider other)
         {
             if (other.CompareTag("Water")) isSwimming = false;
+            else if (other.CompareTag("Air")) isSwimming = true;
         }
     }
 }

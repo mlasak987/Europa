@@ -24,7 +24,9 @@ namespace Europa.Boids
 
         void Awake()
         {
-            material = transform.GetComponentInChildren<MeshRenderer>().material;
+            if (transform.GetComponentInChildren<MeshRenderer>())
+                material = transform.GetComponentInChildren<MeshRenderer>().material;
+            else material = transform.GetComponentInChildren<SkinnedMeshRenderer>().material;
             cachedTransform = transform;
         }
 
@@ -70,6 +72,33 @@ namespace Europa.Boids
                 acceleration += alignmentForce;
                 acceleration += cohesionForce;
                 acceleration += seperationForce;
+            }
+
+            if (IsHeadingForCollision())
+            {
+                Vector3 collisionAvoidDir = ObstacleRays();
+                Vector3 collisionAvoidForce = SteerTowards(collisionAvoidDir) * settings.avoidCollisionWeight;
+                acceleration += collisionAvoidForce;
+            }
+
+            velocity += acceleration * Time.deltaTime;
+            float speed = velocity.magnitude;
+            Vector3 dir = velocity / speed;
+            speed = Mathf.Clamp(speed, settings.minSpeed, settings.maxSpeed);
+            velocity = dir * speed;
+
+            cachedTransform.position += velocity * Time.deltaTime;
+            cachedTransform.forward = dir;
+            position = cachedTransform.position;
+            forward = dir;
+        }
+
+        public void SwimTo(Vector3 target)
+        {
+            if (target != null)
+            {
+                Vector3 offsetToTarget = (target - position);
+                acceleration = SteerTowards(offsetToTarget) * settings.targetWeight;
             }
 
             if (IsHeadingForCollision())

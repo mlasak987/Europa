@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1797,7 +1797,7 @@ MonoBehaviour:
   fullscreenToggle: {fileID: 1979909188}
   resolutionDropdown: {fileID: 415027752}
   qualityDropdown: {fileID: 289270345}
-  brigthnessProfile: {fileID: 11400000, guid: b49c8539ec165ae4dbf14936aff556c0, type: 2}
+  BrigthnessProfile: {fileID: 11400000, guid: b49c8539ec165ae4dbf14936aff556c0, type: 2}
   masterVolumeSlider: {fileID: 1379981369}
   musicVolumeSlider: {fileID: 1801412576}
   effectsVolumeSlider: {fileID: 772923214}
@@ -10432,7 +10432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 41776abc1afe8924e8992f68a58669bb, type: 2}
   musicClips:
-  - {fileID: 8300000, guid: d045e3f23e3678547942f7c2756e87a4, type: 3}
+  - {fileID: 8300000, guid: 8006fa1676f888045b3d1d993b308c06, type: 3}
 --- !u!82 &1668908994
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10444,7 +10444,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -4609340788245672666, guid: 41776abc1afe8924e8992f68a58669bb,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 6ef126df5918d734a94f469f7899e81c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0b03d418e078a5c4f8450191637e5725, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10721,7 +10721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.6862745}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

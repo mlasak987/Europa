@@ -8,7 +8,7 @@ namespace Europa.Language
 	{
         public static List<TextTranslation> list = new();
 
-        [SerializeField] private string key;
+        [SerializeField] public string key;
 
         private string language;
         private TMP_Text text;

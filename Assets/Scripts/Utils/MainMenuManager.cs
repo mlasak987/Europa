@@ -38,7 +38,7 @@ namespace Europa.Utils
 		[SerializeField] private Toggle fullscreenToggle;
 		[SerializeField] private TMP_Dropdown resolutionDropdown;
 		[SerializeField] private TMP_Dropdown qualityDropdown;
-		[SerializeField] private VolumeProfile brigthnessProfile;
+		[SerializeField] public VolumeProfile BrigthnessProfile;
 
 		[Header("Audio Settings")]
 		[SerializeField] private Slider masterVolumeSlider;
@@ -81,7 +81,7 @@ namespace Europa.Utils
 		{
 			CalculateResolutions();
 
-			brigthnessProfile.TryGet(out colorAdjustments);
+			BrigthnessProfile.TryGet(out colorAdjustments);
 
 			systemLanguage = Application.systemLanguage switch
 			{

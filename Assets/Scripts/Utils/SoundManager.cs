@@ -5,11 +5,31 @@ namespace Europa.Utils
 {
     public class SoundManager : MonoBehaviour
     {
+        private static SoundManager _singleton;
+        public static SoundManager Singleton
+        {
+            get => _singleton;
+            private set
+            {
+                if (_singleton == null) _singleton = value;
+                else if (_singleton != value)
+                {
+                    Debug.Log($"{nameof(SoundManager)} instance already exists, destroying duplicate!");
+                    Destroy(value);
+                }
+            }
+        }
+
         [SerializeField] private AudioMixer audioMixer;
         [SerializeField] private AudioClip[] musicClips;
         private AudioSource musicSource;
 
         private int clip;
+
+        private void Awake()
+        {
+            Singleton = this;
+        }
 
         private void Start()
         {
