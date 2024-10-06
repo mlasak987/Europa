@@ -1,0 +1,92 @@
+{
+  "MENU.NEWGAME": " Nowy Szpil ",
+  "MENU.RESUME": " Znowić ",
+  "MENU.PLAY": " Grej ",
+
+  "MENU.SAVEGAME": " Zapisz Szpil ",
+  "MENU.LOADGAME": " Wgrej Szpil ",
+  "MENU.SAVE": "Zapisz",
+  "MENU.SAVE&EXIT": "Zapisz i Ôdyjś",
+
+  "MENU.OPTIONS": " Ôpcyje ",
+  "MENU.CREDITS": " Autory ",
+  "MENU.EXIT": " Ôdyjś",
+
+  "MENU.STATUS.LOADING": " Ladowanie...",
+  "MENU.SAVENAME.PLACEHOLDER": " Miano zŏpisu...",
+  "MENU.LOAD.NOGAMES": " Terŏźnie niy ma żŏdnych zapisanych szpilōw.",
+
+  "MENU.OPTIONS.TITLE": " Ôpcyje ",
+  "MENU.OPTIONS.GRAPHICS": "Grafika",
+  "MENU.OPTIONS.SOUND": " Klang ",
+  "MENU.OPTIONS.GAMEPLAY": " Szpil ",
+  "MENU.OPTIONS.RESET": " Prziwrōć ",
+
+  "MENU.OPTIONS.GRAPHICS.BRIGHTNESS": "Jasność",
+  "MENU.OPTIONS.GRAPHICS.FULLSCREEN": " Połny ekran ",
+  "MENU.OPTIONS.GRAPHICS.RESOLUTION": " Rezolucyjo",
+  "MENU.OPTIONS.GRAPHICS.QUALITY": "Jakość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.LOW": " Niskŏ ",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.MEDIUM": " Postrzedniŏ",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.HIGH": " Wysokŏ ",
+
+  "MENU.OPTIONS.SOUND.MASTER": " Głośność Głownŏ ",
+  "MENU.OPTIONS.SOUND.MUSIC": "Głośność Muzyki",
+  "MENU.OPTIONS.SOUND.EFFECTS": " Głośność Efektōw ",
+
+  "MENU.OPTIONS.GAMEPLAY.SENSITIVITY": "Czułość myszy",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE": " Gŏdka ",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.ENGLISH": "English",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.POLISH": "Polski",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.SILESIAN": "Ślůnski",
+
+  "MENU.OPTIONS.RESET.TEXT": " Je żeś pewny, iże chcesz prziwrōcić wszyjske ustawiyniŏ do wychodnych?",
+  "MENU.OPTIONS.RESET.YES": "Ja",
+  "MENU.OPTIONS.RESET.NO": "Niy",
+
+  "MENU.EXITGAME.TEXT": " Chcesz zachować swoja gra przed wyjściym?",
+  "MENU.EXITGAME.YES": "Ja",
+  "MENU.EXITGAME.NO": "Niy",
+
+  "TAB.INVENTORY": "Ajnrichtōng",
+  "TAB.BLUEPRINTS": " Schymaty ",
+  "TAB.OBJECTIVES": " Zŏdaniŏ ",
+  "TAB.JOURNAL": " Dziynnik ",
+
+  "JOURNAL.FAUNA": "Fauna",
+  "JOURNAL.FAUNA.FUMBLYFISH": "Szperacz",
+  "JOURNAL.FAUNA.FUMBLYFISH.DESCRIPTION": " Ôpis: Ta niywielkŏ ryba, przinŏleżōncŏ do familije Intrusor sine pinnulis, je czynstym widokym w ôceanach Europia. Żółtoboczne szperacze, ô zielōnych brzuchach, wyrōżniajōm sie na zadku ziymskich ryb swojim brakym płetw i #czuły lynijōm bocznõ. W czasie ewolucyje wykŏzały sie mechanikōm przetrwaniŏ polygajōncõ na skradaniu sie pod abo za skały morske i roślinność, coby uniknōńć zdroku drŏpieżnikōw. Szperacze pływajōm w srogich ławicach, co je jednã jejich z ôstanych metod dezoriyntacyje drŏpieżnikōw. Ryba ta je drugim ôgniwym w kecie kustowym ekosystymu Europia – je roślinożerna i niy ma akuratnego zdroku, co praktyczny je ino do poznŏwaniŏ bioluminescencyjnych ôznaczyń inkszych zwiyrzōnt i charakterystycznych kształtōw roślinności. Wszyjske te zawady sprawiajōm, iże zwiyrzã rozwinyło ekstra zachowaniŏ ôchrōnne.",
+  "JOURNAL.FAUNA.FUMBLYFISH.NOTES": "Zŏpiski: Ryby te sōm barzo elastyczne, a jejich ciała znacznie sie rozciōngajōm i wyginają. Sōm drugim nojlepij zbadanym i ôpisanym gatōnkym ryb zamiyszkujōncych wody tego miesiōnczka, ale sōm tyż jednymi z #prosty form życiŏ tukej wystympujōncych.",
+  "JOURNAL.FAUNA.ALGEON": "Glonik",
+  "JOURNAL.FAUNA.ALGEON.DESCRIPTION": "Ôpis: Gloniak ôsobliwie upodobał sie swoje glonowe ôbtoczynie – w procesie adaptacyje wykształciōł wyglōnd podobny do tyj podwodnyj roślinności. Ryba ta posiadŏ zestŏw macek, kerych używŏ tak za głownego ôrganu mobilności, jak coby jak nojbliżyj upodobnić sie estetycznie do glōnōw. Idzie jã dojzdrzeć w przestrzyństwach ô wysokim zarośnięciu, żywi sie z wiynksza srogszymi ôwadami morskimi i małymi rybami, co może snadnie chycić ze swojich kryjōwek za pōmocōm dwōch chwytaków spōminajōncych kły, wrażōnych przi sznupie. Na muster ôstanych ôrganizmōw wōd Europia, zauważalne sōm bioluminescencyjne elymynta ôzdŏbiajōnce jego boki.",
+  "JOURNAL.FAUNA.ALGEON.NOTES": " Zŏpiski: Z ôbserwacyje wynikŏ, iże stworzynie to je talyntne do regyneracyje ôdetniyntych macek, co skazuje na wyjōntkowe talyntu odradzania sie kōmōrek jego ôrganizmu.",
+  "JOURNAL.FAUNA.CHOMPY": "Dziabacz",
+  "JOURNAL.FAUNA.CHOMPY.DESCRIPTION": " Ôpis: Mordax europae, czyńścij ôkryślany nieformalną mianym “dziabacz”, poznany może ôstać po trzech zestawach ôstrych zymbōw we postrzodku ôgrōmnego ôtworu gębowego jak tyż tubiastym, opływowym kształcie ciała. Krōm to, spotrzebowuje swoje kły do chytaniŏ i żywiyniŏ sie na myńszych rybach i ôwadach morskich... aby, zaôbycz. \nJego anatōmijŏ przizwŏlŏ mu ôsiōngać sroge wartkości w czasie pływaniŏ, dziynki czymu jego głownõ taktykōm gōnu je krycie sie i atakyrowanie; wynurza sie z skryciŏ, a potym w jednyj chwile łykŏ wszyjske ôfiary na swojij drōdze, bez chytanie jy we swōj srogi ôtwōr gębowy. Jego płetwy cołkościōm z wiynksza funkcyjõ stabilizacyjną, a dugi ôgōn dziabacza pokŏzoł sie być jego głownym napyndym. Jak ôstane gatōnki ryb Europia, jego lynijŏ bocznŏ je wyjōntkowo czułŏ na ôbtoczyniŏ.",
+  "JOURNAL.FAUNA.CHOMPY.NOTES": " Zŏpiski: Dziab, dziab!",
+  "JOURNAL.FAUNA.TICKTIK": "Kleszczownik",
+  "JOURNAL.FAUNA.TICKTIK.DESCRIPTION": "Ôpis: Kleszczownik to miyszkaniec dna morskigo, wystympujōncy porzōnd w bliżowi zdrzōdeł geotermalnych. Je srogim, czworonożnym stworzyniym ô bulwiastym kształcie ciała. Na spodnim kōńcu tōłowia mŏ grif, co wwierca sie w dno, bez sebranie potrzebne mu minerały i skłŏdniki ôdżywcze. Je to niegroźny gatōnek, ôprōcz swojigo wyglōndu, co przywodzi na myśl robotycznego łazika. Kleszczownik je ôstrōżny, czynsto bez decydowanie sie na ucieczkã w sytuacyjach, co w nich jego pokōj je szterowany, nawet jeźli prawie napoczōn proces pobiyraniŏ kustu bez wiertanie.",
+  "JOURNAL.FAUNA.TICKTIK.NOTES": " Zŏpiski: Stworzynie to je jednym z słabij zbadanych elymyntōw ekosystymu miesiōnczka, co skłōniŏ badŏczōw do srogigo zainteresowaniŏ zwiyrzyńciym, w nadzieje #być piyrszym, fto szczegōłowo ôpisze jego cychy.",
+
+  "JOURNAL.FLORA": "Flora",
+  "JOURNAL.FLORA.FEATHERGRASS": "Piórkowiec",
+  "JOURNAL.FLORA.FEATHERGRASS.DESCRIPTION": "Ôpis: Trŏwy te sōm barzo wszeôbecnie trefiane na powiyrchnie dna morskigo na Europium, porzōnd dalij ôd zdrzōdeł geotermalnych, w placach kaj niy wystympujōm siylne sztrōmy, a teryn je rōwny. Z wynikōw analizy chymicznyj jejich składu i budowy, potwiyrdzōnŏ ôstała jejich talynt do filtrowaniŏ wody. Piórkowie zawdziynczŏ swōj miano jego wyjōntkowymu wyglōndowi listkōw, spōminajōncymu piōro ptŏsie zbudowane z postrzednij rubości \"igiełek\".",
+  "JOURNAL.FLORA.FEATHERGRASS.NOTES": " Zŏpiski: Możliwe zastosowanie w nowych technologijach filtracyje wody na małõ skalã.",
+  "JOURNAL.FLORA.DEVILSLEEK": "Diabelski rojnik",
+  "JOURNAL.FLORA.DEVILSLEEK.DESCRIPTION": "Ôpis: Diŏbelski rojnik je jednym z barzij niybezpiecznych ôrganizmōw wystympujōncych w wodach Europia. Miano pochodzi ôd rojnika ziymskigo, kerymu wykazowi spōminajōm kształtym czōny kwiŏtka rojnika na Europium. Czōn „diŏbelski” ôdnosi sie do toksycznych włŏsności rośliny – wytwŏrzŏ ôna fest zakwaszoną żywicã. Bezpostrzedni kōntakt z toksycznõ substancyjōm może powodować powŏżne oparzenia i zatruciŏ, co przikazuje unikać wszelkigo kōntaktu z roślinōm. Inkszym powodym “diabelnych” kōnotacyje rojnika je fakt, iże żyje ôn w barzo bliskim sōmsiedztwie zdrzōdeł geotermalnych, bez rozwijanie sie w piekielnie gorkich warōnkach. Jeźli ôstanie popszniōnŏ, zagrŏżŏ strzodowisku bez uwolniynie swojij szkodliwyj zawartości.",
+  "JOURNAL.FLORA.DEVILSLEEK.NOTES": " Zŏpiski: Medycyna na zatruciŏ abo oparzenia diŏbelskim rojnikiem sōm terŏźnie w czasie syntezy z prōbek pobranych substancyje, tōż jejich skuteczność niy ôstała jeszcze przetestowana.",
+
+  "JOURNAL.EUROPA": "Europa",
+  "JOURNAL.EUROPA.GENDESC": "Nojmyńszy z miesiōnczkōw galileuszowych Jowisza, ôdkryty w 1610 roku. Je zbudowanŏ z krzymianōw, mŏ żelazowo-niklowe jōndro, i dekel jã rubŏ na kilōmeter wodno-lodowŏ szkorupa, połnŏ kraterōw uderzeniowych. Jeji ciynkŏ atmosfera skłŏdŏ sie z wiynksza z tlynu. Skuli wysoki mimośród orbity, siyły pływowe wywołane bez Jowisza sōm w sztańdzie lifrować ynergije miesiōnczkowi. Przizwŏlŏ ôna na utrzimanie wody w stōnie ciekłym pod powiyrchniōm. W 2013 roku fernror Hubble’a zaôbserwowoł ôbłok pŏry wodnyj w bliżowi połedniowego bieguna miesiōnczka, co skazuje na aktywność geologicznõ.",
+
+  "INTERACTABLE.RESEARCHSTATION": " Sztela badawczŏ ",
+  "INTERACTABLE.RESEARCHSTATION.RESEARCH": " Podszukuj ",
+
+  "INTERACTABLE.INVENTORY": "Ekwipunek",
+  "INTERACTABLE.LOCKER": " Skłŏd ",
+  "INTERACTABLE.JOURNAL": " Dziynnik ",
+
+  "UI.OXYGEN": "Tlen",
+  "UI.PRESSURE": "Ciśnienie",
+  "UI.TEMPERATURE": "Temperatura",
+  "UI.ENERGY": "Energia"
+}

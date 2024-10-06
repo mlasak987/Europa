@@ -1,0 +1,92 @@
+{
+  "MENU.NEWGAME": "Nowa Gra",
+  "MENU.RESUME": "Wznów",
+  "MENU.PLAY": "Graj",
+
+  "MENU.SAVEGAME": "Zapisz Grę",
+  "MENU.LOADGAME": "Wczytaj Grę",
+  "MENU.SAVE": "Zapisz",
+  "MENU.SAVE&EXIT": "Zapisz i Wyjdź",
+
+  "MENU.OPTIONS": "Opcje",
+  "MENU.CREDITS": "Autorzy",
+  "MENU.EXIT": "Wyjdź",
+
+  "MENU.STATUS.LOADING": "Ładowanie...",
+  "MENU.SAVENAME.PLACEHOLDER": "Nazwa zapisu...",
+  "MENU.LOAD.NOGAMES": "Obecnie nie ma żadnych zapisanych gier.",
+
+  "MENU.OPTIONS.TITLE": "Opcje",
+  "MENU.OPTIONS.GRAPHICS": "Grafika",
+  "MENU.OPTIONS.SOUND": "Dźwięk",
+  "MENU.OPTIONS.GAMEPLAY": "Gra",
+  "MENU.OPTIONS.RESET": "Przywróć",
+
+  "MENU.OPTIONS.GRAPHICS.BRIGHTNESS": "Jasność",
+  "MENU.OPTIONS.GRAPHICS.FULLSCREEN": "Pełny ekran",
+  "MENU.OPTIONS.GRAPHICS.RESOLUTION": "Rozdzielczość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY": "Jakość",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.LOW": "Niska",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.MEDIUM": "Średnia",
+  "MENU.OPTIONS.GRAPHICS.QUALITY.HIGH": "Wysoka",
+
+  "MENU.OPTIONS.SOUND.MASTER": "Głośność Główna",
+  "MENU.OPTIONS.SOUND.MUSIC": "Głośność Muzyki",
+  "MENU.OPTIONS.SOUND.EFFECTS": "Głośność Efektów",
+
+  "MENU.OPTIONS.GAMEPLAY.SENSITIVITY": "Czułość myszy",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE": "Język",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.ENGLISH": "English",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.POLISH": "Polski",
+  "MENU.OPTIONS.GAMEPLAY.LANGUAGE.SILESIAN": "Ślůnski",
+
+  "MENU.OPTIONS.RESET.TEXT": "Czy jesteś pewien, że chcesz przywrócić wszystkie ustawienia do domyślnych?",
+  "MENU.OPTIONS.RESET.YES": "Tak",
+  "MENU.OPTIONS.RESET.NO": "Nie",
+
+  "MENU.EXITGAME.TEXT": "Czy chcesz zapisać grę przed wyjściem?",
+  "MENU.EXITGAME.YES": "Tak",
+  "MENU.EXITGAME.NO": "Nie",
+
+  "TAB.INVENTORY": "Wyposażenie",
+  "TAB.BLUEPRINTS": "Schematy",
+  "TAB.OBJECTIVES": "Zadania",
+  "TAB.JOURNAL": "Dziennik",
+
+  "JOURNAL.FAUNA": "Fauna",
+  "JOURNAL.FAUNA.FUMBLYFISH": "Szperacz",
+  "JOURNAL.FAUNA.FUMBLYFISH.DESCRIPTION": "Opis: Ta niewielka ryba, należąca do rodziny Intrusor sine pinnulis, jest częstym widokiem w oceanach Europy. Żółtoboczne szperacze, o zielonych brzuchach, wyróżniają się na tle ziemskich ryb swoim brakiem płetw i czulszą linią boczną. W trakcie ewolucji wykazały się mechaniką przetrwania polegającą na skradaniu się pod lub za skały morskie i roślinność, aby uniknąć wzroku drapieżników. Szperacze pływają w dużych ławicach, co jest jedną ich z pozostałych metod dezorientacji drapieżników. Ryba ta jest drugim ogniwem w łańcuchu pokarmowym ekosystemu Europy – jest roślinożerna i nie ma precyzyjnego wzroku, który praktyczny jest tylko do rozpoznawania bioluminescencyjnych oznaczeń innych zwierząt i charakterystycznych kształtów roślinności. Wszystkie te przeszkody sprawiają, że zwierzę rozwinęło dodatkowe zachowania ochronne.",
+  "JOURNAL.FAUNA.FUMBLYFISH.NOTES": "Notatki: Ryby te są bardzo elastyczne, a ich ciała znacznie się rozciągają i wyginają. Są drugim najlepiej zbadanym i opisanym gatunkiem ryb zamieszkujących wody tego księżyca, ale są również jednymi z najprostszych form życia tutaj występujących.",
+  "JOURNAL.FAUNA.ALGEON": "Glonik",
+  "JOURNAL.FAUNA.ALGEON.DESCRIPTION": "Opis: Gloniak szczególnie upodobał sobie swoje glonowe otoczenie – w procesie adaptacji wykształcił wygląd podobny do tej podwodnej roślinności. Ryba ta posiada zestaw macek, których używa zarówno jako głównego organu mobilności, jak aby jak najbliżej upodobnić się estetycznie do glonów. Można ją dojrzeć w obszarach o wysokim zarośnięciu, żywi się głównie większymi owadami morskimi i małymi rybami, które może łatwo złapać ze swoich kryjówek za pomocą dwóch chwytaków przypominających kły, umieszczonych przy pysku. Na wzór pozostałych organizmów wód Europy, zauważalne są bioluminescencyjne elementy ozdabiające jego boki.",
+  "JOURNAL.FAUNA.ALGEON.NOTES": "Notatki: Z obserwacji wynika, że stworzenie to jest zdolne do regeneracji odciętych macek, co wskazuje na wyjątkowe zdolności odradzania się komórek jego organizmu.",
+  "JOURNAL.FAUNA.CHOMPY": "Dziabacz",
+  "JOURNAL.FAUNA.CHOMPY.DESCRIPTION": "Opis: Mordax europae, częściej określany nieformalną nazwą “dziabacz”, rozpoznany może zostać po trzech zestawach ostrych zębów wewnątrz ogromnego otworu gębowego oraz tubiastym, opływowym kształcie ciała. Mimo to, wykorzystuje swoje kły do łapania i żywienia się na mniejszych rybach i owadach morskich... przynajmniej, zazwyczaj. \nJego anatomia pozwala mu osiągać duże prędkości podczas pływania, dzięki czemu jego główną taktyką polowania jest chowanie się i atakowanie; wynurza się z ukrycia, a następnie w jednej chwili połyka wszystkie ofiary na swojej drodze, łapiąc je w swój duży otwór gębowy. Jego płetwy pełnią głównie funkcję stabilizacyjną, a długi ogon dziabacza okazał się być jego głównym napędem. Jak pozostałe gatunki ryb Europy, jego linia boczna jest wyjątkowo czuła na otoczenia.",
+  "JOURNAL.FAUNA.CHOMPY.NOTES": "Notatki: Dziab, dziab!",
+  "JOURNAL.FAUNA.TICKTIK": "Kleszczownik",
+  "JOURNAL.FAUNA.TICKTIK.DESCRIPTION": "Opis: Kleszczownik to mieszkaniec dna morskiego, występujący zwykle w pobliżu źródeł geotermalnych. Jest dużym, czworonożnym stworzeniem o bulwiastym kształcie ciała. Na dolnym końcu tułowia ma uchwyt, którym wwierca się w dno, zbierając potrzebne mu minerały i składniki odżywcze. Jest to niegroźny gatunek, pomimo swojego wyglądu, który przywodzi na myśl robotycznego łazika. Kleszczownik jest ostrożny, często decydując się na ucieczkę w sytuacjach, w których jego spokój jest zakłócany, nawet jeśli właśnie rozpoczął proces pobierania pożywienia przez wiercenie.",
+  "JOURNAL.FAUNA.TICKTIK.NOTES": "Notatki: Stworzenie to jest jednym ze słabiej zbadanych elementów ekosystemu księżyca, co skłania badaczy do dużego zainteresowania zwierzęciem, w nadziei bycia pierwszym, kto szczegółowo opisze jego cechy.",
+
+  "JOURNAL.FLORA": "Flora",
+  "JOURNAL.FLORA.FEATHERGRASS": "Piórkowiec",
+  "JOURNAL.FLORA.FEATHERGRASS.DESCRIPTION": "Opis: Trawy te są bardzo powszechnie spotykane na powierzchni dna morskiego na Europie, zwykle dalej od źródeł geotermalnych, w miejscach gdzie nie występują silne prądy, a teren jest równy. Z wyników analizy chemicznej ich składu i budowy, potwierdzona została ich zdolność do filtrowania wody. Piórkowie zawdzięcza swoją nazwę jego wyjątkowemu wyglądowi liści, przypominającemu pióro ptasie zbudowane ze średniej grubości \"igiełek\".",
+  "JOURNAL.FLORA.FEATHERGRASS.NOTES": "Notatki: Możliwe zastosowanie w nowych technologiach filtracji wody na małą skalę.",
+  "JOURNAL.FLORA.DEVILSLEEK": "Diabelski rojnik",
+  "JOURNAL.FLORA.DEVILSLEEK.DESCRIPTION": "Opis: Diabelski rojnik jest jednym z bardziej niebezpiecznych organizmów występujących w wodach Europy. Nazwa pochodzi od rojnika ziemskiego, którego liście przypominają kształtem człony kwiatu rojnika na Europie. Człon „diabelski” odnosi się do toksycznych właściwości rośliny – wytwarza ona silnie zakwaszoną żywicę. Bezpośredni kontakt z toksyczną substancją może powodować poważne oparzenia i zatrucia, co nakazuje unikać wszelkiego kontaktu z rośliną. Innym powodem “diabelnych” konotacji rojnika jest fakt, że żyje on w bardzo bliskim sąsiedztwie źródeł geotermalnych, rozwijając się w piekielnie gorących warunkach. Jeśli zostanie uszkodzona, zagraża środowisku poprzez uwolnienie swojej szkodliwej zawartości.",
+  "JOURNAL.FLORA.DEVILSLEEK.NOTES": "Notatki: Lekarstwo na zatrucia lub oparzenia diabelskim rojnikiem są obecnie w trakcie syntezy z próbek pobranych substancji, więc ich skuteczność nie została jeszcze przetestowana.",
+
+  "JOURNAL.EUROPA": "Europa",
+  "JOURNAL.EUROPA.GENDESC": "Najmniejszy z księżyców galileuszowych Jowisza, odkryty w 1610 roku. Jest zbudowana z krzemianów, ma żelazowo-niklowe jądro, i pokrywa ją gruba na kilometr wodno-lodowa skorupa, pełna kraterów uderzeniowych. Jej cienka atmosfera składa się głównie z tlenu. Ze względu na wysoki mimośród orbity, siły pływowe wywołane przez Jowisza są w stanie dostarczać energii księżycowi. Pozwala ona na utrzymanie wody w stanie ciekłym pod powierzchnią. W 2013 roku teleskop Hubble’a zaobserwował obłok pary wodnej w pobliżu południowego bieguna księżyca, co wskazuje na aktywność geologiczną.",
+
+  "INTERACTABLE.RESEARCHSTATION": "Stacja badawcza",
+  "INTERACTABLE.RESEARCHSTATION.RESEARCH": "Badaj",
+
+  "INTERACTABLE.INVENTORY": "Ekwipunek",
+  "INTERACTABLE.LOCKER": "Magazyn",
+  "INTERACTABLE.JOURNAL": "Dziennik",
+
+  "UI.OXYGEN": "Tlen",
+  "UI.PRESSURE": "Ciśnienie",
+  "UI.TEMPERATURE": "Temperatura",
+  "UI.ENERGY": "Energia"
+}
