@@ -19,6 +19,9 @@ namespace Europa.Player
 
         private void Start()
         {
+            postProcessing = GetComponent<Volume>();
+            PauseMenu(false);
+
             if (Player.Singleton.DefaultWater)
             {
                 RenderSettings.fog = true;
@@ -27,9 +30,6 @@ namespace Europa.Player
                 Player.Singleton.CanBreath = false;
                 Player.Singleton.MovController.IsCompletelyUnderwater = true;
             }
-
-            postProcessing = GetComponent<Volume>();
-            PauseMenu(false);
         }
 
         void Update()

@@ -24,6 +24,11 @@ namespace Europa.Utils
             GetComponentInParent<VerticalLayoutGroup>().SetLayoutVertical();
         }
 
+        private void Start()
+        {
+            if (tab == 0) Expand();
+        }
+
         public void Expand()
         {
             if (expandObjects.Length == 0 || (expandObjects.Length == 1 && expandObjects[0] == this) || !Player.Player.Singleton.UnlockedLore[transform.GetSiblingIndex()]) return;

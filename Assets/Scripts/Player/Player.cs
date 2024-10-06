@@ -1,4 +1,5 @@
 using Europa.Inventory;
+using Europa.Language;
 using Europa.Utils;
 using System.Collections;
 using TMPro;
@@ -29,9 +30,12 @@ namespace Europa.Player
         public CameraController CamController { get; private set; }
         public MovementController MovController { get; private set; }
 
+        public float MaxDepth { get; private set; }
+
         public bool[] UnlockedLore;
 
         public float Oxygen { get; private set; }
+        public float Energy { get; private set; }
 
         [HideInInspector] public bool CanBreath = true;
 
@@ -45,8 +49,12 @@ namespace Europa.Player
         [SerializeField] private GameObject[] tabMenus;
         [Header("Stats")]
         [SerializeField] private float maxOxygen = 100f;
+        [SerializeField] private float maxEnergy = 5000f;
         [Header("UI")]
-        [SerializeField] private Image oxygenSlider;
+        [SerializeField] private TMP_Text oxygenText;
+        [SerializeField] private TMP_Text pressureText;
+        [SerializeField] private TMP_Text temperatureText;
+        [SerializeField] private TMP_Text energyText;
         [SerializeField] private TMP_Text status;
 
         private GameObject pickUpObject = null;
@@ -68,6 +76,7 @@ namespace Europa.Player
             MovController = GetComponent<MovementController>();
             status.text = "";
             Oxygen = maxOxygen;
+            MaxDepth = 0f;
         }
 
         private void FixedUpdate()
@@ -77,7 +86,10 @@ namespace Europa.Player
             if (CanBreath && Oxygen < maxOxygen) Oxygen += (maxOxygen / (maxOxygen * 2f));
             else Oxygen -= (maxOxygen / 6000f);
 
-            oxygenSlider.fillAmount = Oxygen / maxOxygen;
+            oxygenText.text = $"{LanguageManager.GetTranslation("UI.OXYGEN")}: {Mathf.Round(Oxygen)} bar / {maxOxygen} bar";
+            energyText.text = $"{LanguageManager.GetTranslation("UI.ENERGY")}: {Mathf.Round(Energy)} bar / {maxEnergy} wH";
+            pressureText.text = $"{LanguageManager.GetTranslation("UI.PRESSURE")}: {Mathf.Round(transform.position.y / 100f)} bar";
+            temperatureText.text = $"{LanguageManager.GetTranslation("UI.TEMPERATURE")}: {Mathf.Round(-0.024f * transform.position.y + 95f)} bar";
         }
 
         private void Update()
@@ -130,6 +142,8 @@ namespace Europa.Player
 
                 openContainer.LoadSlots();
             }
+
+            if (transform.position.y < 0 && Mathf.Abs(transform.position.y) > MaxDepth) MaxDepth = Mathf.Abs(transform.position.y);
         }
 
         private void SelectSideGUI(int index)
@@ -158,6 +172,7 @@ namespace Europa.Player
         public void Resume()
         {
             if (tabMenus[1].activeInHierarchy && openContainer != null) openContainer.SaveSlots();
+            //foreach (var obj in FindObjectsOfType<Hotbar>()) obj.UpdateSlots();
 
             if (uiMenu != null) uiMenu.SetActive(true);
             if (pauseMenu != null) pauseMenu.SetActive(false);

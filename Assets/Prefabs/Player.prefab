@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772185ddd5be87043a4777d877bcb5a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UnlockedLore: 0101
+  UnlockedLore: 01010101010101010101010101010101010101010101
   CanBreath: 1
   pauseMenu: {fileID: 0}
   tabMenu: {fileID: 0}
@@ -119,7 +119,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   maxOxygen: 100
-  oxygenSlider: {fileID: 0}
+  maxEnergy: 5000
+  oxygenText: {fileID: 0}
+  pressureText: {fileID: 0}
+  temperatureText: {fileID: 0}
+  energyText: {fileID: 0}
   status: {fileID: 0}
 --- !u!114 &3586407292580558353
 MonoBehaviour:
@@ -160,7 +164,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c11d22256a4b94647a43c6fefc820bcd, type: 2}
   MaxItems: 25
   itemInfo: {fileID: 0}
-  EmptyItem: {fileID: 0}
+  EmptyItem: {fileID: 11400000, guid: d832110e665e75f40a4e43a47088b9f7, type: 2}
 --- !u!1 &3007787675960038312
 GameObject:
   m_ObjectHideFlags: 0

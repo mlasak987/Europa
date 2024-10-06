@@ -30,6 +30,7 @@ namespace Europa.Player
             controller = GetComponent<CharacterController>();
 
             isSwimming = Player.Singleton.DefaultWater;
+            IsCompletelyUnderwater = Player.Singleton.DefaultWater;
         }
 
         private void Update()
