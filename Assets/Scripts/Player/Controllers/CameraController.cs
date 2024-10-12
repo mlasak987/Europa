@@ -12,6 +12,8 @@ namespace Europa.Player
         [SerializeField] private VolumeProfile underwaterProfile;
         [SerializeField] private GameObject[] underwaterBackgrounds;
 
+        [HideInInspector] public Camera Cam { get; private set; }
+
         private float xRot = 0f;
 
         private Volume postProcessing;
@@ -20,6 +22,7 @@ namespace Europa.Player
         private void Start()
         {
             postProcessing = GetComponent<Volume>();
+            Cam = GetComponent<Camera>();
             PauseMenu(false);
 
             if (Player.Singleton.DefaultWater)

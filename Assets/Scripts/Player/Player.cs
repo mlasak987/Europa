@@ -34,6 +34,8 @@ namespace Europa.Player
 
         public bool[] UnlockedLore;
 
+        public BatteryItem battery;
+
         public float Oxygen { get; private set; }
         public float Energy { get; private set; }
 
@@ -88,8 +90,8 @@ namespace Europa.Player
 
             oxygenText.text = $"{LanguageManager.GetTranslation("UI.OXYGEN")}: {Mathf.Round(Oxygen)} bar / {maxOxygen} bar";
             energyText.text = $"{LanguageManager.GetTranslation("UI.ENERGY")}: {Mathf.Round(Energy)} bar / {maxEnergy} wH";
-            pressureText.text = $"{LanguageManager.GetTranslation("UI.PRESSURE")}: {Mathf.Round(transform.position.y / 100f)} bar";
-            temperatureText.text = $"{LanguageManager.GetTranslation("UI.TEMPERATURE")}: {Mathf.Round(-0.024f * transform.position.y + 95f)} bar";
+            pressureText.text = $"{LanguageManager.GetTranslation("UI.PRESSURE")}: {Mathf.Round(Mathf.Abs(transform.position.y) / 100f)} bar";
+            temperatureText.text = $"{LanguageManager.GetTranslation("UI.TEMPERATURE")}: {Mathf.Round(-0.024f * transform.position.y + 95f)} K";
         }
 
         private void Update()

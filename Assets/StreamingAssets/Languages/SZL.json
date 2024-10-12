@@ -78,12 +78,12 @@
   "JOURNAL.EUROPA": "Europa",
   "JOURNAL.EUROPA.GENDESC": "Nojmyńszy z miesiōnczkōw galileuszowych Jowisza, ôdkryty w 1610 roku. Je zbudowanŏ z krzymianōw, mŏ żelazowo-niklowe jōndro, i dekel jã rubŏ na kilōmeter wodno-lodowŏ szkorupa, połnŏ kraterōw uderzeniowych. Jeji ciynkŏ atmosfera skłŏdŏ sie z wiynksza z tlynu. Skuli wysoki mimośród orbity, siyły pływowe wywołane bez Jowisza sōm w sztańdzie lifrować ynergije miesiōnczkowi. Przizwŏlŏ ôna na utrzimanie wody w stōnie ciekłym pod powiyrchniōm. W 2013 roku fernror Hubble’a zaôbserwowoł ôbłok pŏry wodnyj w bliżowi połedniowego bieguna miesiōnczka, co skazuje na aktywność geologicznõ.",
 
-  "INTERACTABLE.RESEARCHSTATION": " Sztela badawczŏ ",
-  "INTERACTABLE.RESEARCHSTATION.RESEARCH": " Podszukuj ",
+  "INTERACTABLE.RESEARCHSTATION": "Sztela badawczŏ",
+  "INTERACTABLE.RESEARCHSTATION.RESEARCH": "Podszukuj",
 
   "INTERACTABLE.INVENTORY": "Ekwipunek",
-  "INTERACTABLE.LOCKER": " Skłŏd ",
-  "INTERACTABLE.JOURNAL": " Dziynnik ",
+  "INTERACTABLE.LOCKER": "Skłŏd",
+  "INTERACTABLE.JOURNAL": "Dziynnik",
 
   "UI.OXYGEN": "Tlen",
   "UI.PRESSURE": "Ciśnienie",
